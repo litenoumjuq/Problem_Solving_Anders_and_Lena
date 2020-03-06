@@ -60,7 +60,11 @@ void printIndata(std::vector<std::string> indata){
 int main()
 {
     std::vector<std::string> indata;
-    indata = getFileContent("Input_day12.txt", indata);
+    string input_file = "Input_day12.txt";
+#ifdef usedmake
+    input_file = "AoC_2019_day12/Input_day12.txt";
+#endif
+    indata = getFileContent(input_file, indata);
     printIndata(indata);
 
     Moon io("io", 3, 2, -6, 0, 0, 0);
