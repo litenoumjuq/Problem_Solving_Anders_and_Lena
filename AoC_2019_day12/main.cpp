@@ -16,7 +16,7 @@ public:
     int velocity_y;
     int velocity_z;
 
-    Moon(aName, aPosition_x, aPosition_y, aPosition_z, aVelocity_x, aVelocity_y, aVelocity_z){
+    Moon(std::string aName, int aPosition_x, int aPosition_y, int aPosition_z, int aVelocity_x, int aVelocity_y, int aVelocity_z){
         name = aName;
         position_x = aPosition_x;
         position_y = aPosition_y;
@@ -64,9 +64,9 @@ int main()
     printIndata(indata);
 
     Moon io("io", 3, 2, -6, 0, 0, 0);
-    Moon ganymede("ganymede", -13, 18, 10, 0, 0, 0);
-    Moon callisto("callisto", -8, -1, 13, 0, 0, 0);
-    Moon europa("europa", 5, 10, 4, 0, 0, 0);
+    //Moon ganymede("ganymede", -13, 18, 10, 0, 0, 0);
+    //Moon callisto("callisto", -8, -1, 13, 0, 0, 0);
+    //Moon europa("europa", 5, 10, 4, 0, 0, 0);
 
     return 0;
 }
