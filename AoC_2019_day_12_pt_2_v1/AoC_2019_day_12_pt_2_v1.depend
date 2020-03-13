@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1583853386 source:c:\users\lenas\desktop\programming\cpp\aoc_2019_day_12_pt_2_v1\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<vector>
+	<algorithm>
+
